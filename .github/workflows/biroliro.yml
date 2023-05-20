@@ -35,4 +35,4 @@ jobs:
           sudo ufw allow 3000/tcp
           sudo ufw allow 3000/udp
           yarn typeorm migration:run
-          sudo pm2 start "yarn dev" --name Wave
+          sudo pm2 start "yarn dev" --name Wave 
